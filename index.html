@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, inital-scale=1.0">
+        
+        <title>Nia Hill's Porfolio</title>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" /> 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+        <!--Insert Fonts and Icons-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,900;1,400&family=Source+Sans+Pro:wght@300;900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+
+    <body>
+        <header>
+            <div class="logo">
+                <img src="LOGO.PNG" alt="">
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+                </ul>
+            </nav>
+        </header>
+
+
+
+        <!--Intoduction-->
+        <section class="intro" id="home">
+            <h1 class="section__ title section__title--intro">
+                Hi, I am <strong>Nia Hill</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">front-end dev</p>
+            <img src="dev-nia-01.PNG" alt="a picture of nia sitting" class="intro__img">
+        </section>
+
+
+
+        <!--My Services-->
+        <section class="my-services" id="services">
+            <h2 class="section__title section__title--services">What I do</h2>
+            <div class="services">
+
+                <div class="service">
+                    <h3>Design</h3>
+                    <p>Built full-stack web applications using the Flask web framework, MongoDB, Python, HTML, CSS and JavaScript for design and development purposes.</p>
+
+                </div><!-- / service -->
+
+                <div class="service">
+                    <h3>Development</h3>
+                    <p>Developed and iterated upon prototypes and Minimum Viable Products (MVPs), which culminated in presentations of a final web application.</p>
+
+                </div><!-- / service -->
+
+                <div class="service">
+                    <h3>Collaboartion</h3>
+                    <p>My group projects always integrate the ideas and expertise of all group members in order to reap the preeminent result.</p>
+
+                </div><!-- / service -->
+
+            </div><!-- / services-->
+
+            <a href="#work" class="btn">My Work</a>
+        </section>
+
+
+
+        <!--About Me-->
+        <section class="about-me" id="about">
+            <h2 class="section__title section__title--about">Who Am I</h2>
+            <p class="section__subtitle section__subtitle--about">Web Designer based out of NYC</p>
+        
+            <div class="about-me__body">
+                <p>Hi! I am a aspiring software engineer with an adaquate background in front-end web development. I am currently attending the City College of New York in order to recevive my Bachelor's Degree in Computer Science.</p>
+                <p>For the past two years I have taught myself HTML, CSS and JavaScript. However, for the duration of the summer of 2021 I have participated in two paid-internships in order to expand and strengthen my skill-set. I am very passionate about web design and am open to any opportuinty to explore that realm of Computer Science as well as others. Please feel free to contact me at anytime!                </p>
+            </div>
+
+            <img src="dev-nia-02.PNG" alt="a picture of nia taking off glasses" class="about-me__img">
+        </section>
+
+
+
+        <!--My Work-->
+        <section class="my-work" id="work">
+            <h2 class="section__title section__title--work">My Work</h2>
+            <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
+
+            <div class="portfolio">
+                
+                <!--Porfolio item 01-->
+                <a href ="portfolio-item1.html" class="portfolio__item">
+                    <img src="computer.PNG" alt="" class="portfolio__img">
+                </a>
+
+                <!--Porfolio item 02-->
+                <a href ="#" class="portfolio__item">
+                    <img src="computer.PNG" alt="" class="portfolio__img">
+                </a>
+
+                <!--Porfolio item 02-->
+                <a href ="#" class="portfolio__item">
+                    <img src="computer.PNG" alt="" class="portfolio__img">
+                </a>
+
+            </div>
+        </section>
+
+
+
+        <!--Footer-->
+        <footer>
+            <a href="mailto:myemail@gmail.com" class="footer__link">myemail@gmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="socail-list__link" href="https://github.com"><i class="fab fa-github"></i></a></li>
+                <li class="social-list__item">
+                    <a class="socail-list__link" href="https://linkedin.com"><i class="fab fa-linkedin"></i></a></li>
+                <li class="social-list__item">
+                    <a class="socail-list__link" href="https://instagram.com"><i class="fab fa-instagram"></i></a></li>           
+            </ul>
+        </footer>
+
+        <script src="index.js"></script>
+
+
+
+
+    </body>
+
+</html>
