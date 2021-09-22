@@ -59,6 +59,7 @@ body{
 }
 section{
     padding: 5em 2em;
+    padding-top: 2em;
 }
 img{
     display: block;
@@ -88,6 +89,16 @@ strong{font-weight: var(--fw-bold)}
 }
 .btn:hover{
     transform: scale(1.1);
+}
+.portfolio-button{
+    display: flex;
+    justify-content: center;
+}
+#portfolio-btn{
+    box-shadow: 5px 5px 10px #8888;
+    margin: 3em;
+    width: 12rem;
+    padding: .5em;
 }
 /*Typography*/
 
@@ -416,7 +427,15 @@ footer a {
 
 
 /*Individual portfolio item styles*/
+@media (max-width: 800px){
+    #section-margin{
+        margin: .5em;
+    }
+}
 
+#portfolio-intro{
+    padding-bottom: 0;
+}
 .portfolio__item-individual{
     padding: 0 rem 2em;
     max-width: 1000px;
