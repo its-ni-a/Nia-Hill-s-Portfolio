@@ -275,7 +275,7 @@ header{
 /* My services section */
 .my-services{
     background-color: var(--clr-dark);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url("dev-cpu-wallpaper.PNG");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url("Images/Index/dev-cpu-wallpaper.PNG");
     background-size: cover;
    /* background-blend-mode: multiply;*/
     color: var(--clr-light);
