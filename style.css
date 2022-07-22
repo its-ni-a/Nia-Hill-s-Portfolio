@@ -14,7 +14,7 @@
 
     --clr-light: #fff;
     --clr-dark: #303030;
-    --clr-accent: #7cdfec;
+    --clr-accent: #85d8ff;
 
     --fs-h1: 3rem;
     --fs-h2: 2.25rem;
@@ -300,7 +300,7 @@ header{
 }
 
 .service{
-    max-width: 500px;
+    max-width: 500rem;
     margin: 0 auto; 
 }
 
@@ -311,7 +311,10 @@ header{
         margin-left: auto;
         margin-right: auto;
     }
-
+    .service{
+        width: 500px;
+        padding: 10px
+    } 
 }
 
 /* About Me */
@@ -354,6 +357,11 @@ header{
         grid-area: img;
         position: relative;
         z-index: 2;
+    }
+}
+@media (min-width: 600px) and (max-width: 900px){
+    .section__subtitle--about{
+        width: 550px;
     }
 }
 
