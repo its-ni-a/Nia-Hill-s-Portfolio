@@ -16,6 +16,8 @@
     --clr-dark: #303030;
     --clr-accent: #85d8ff;
 
+    --clr-overlay-1: rgb(214, 137, 150, 0.7);
+
     --fs-h1: 3rem;
     --fs-h2: 2.25rem;
     --fs-h3: 1.25rem;
@@ -378,16 +380,21 @@ header{
 .portfolio__item {
     background: var(--clr-accent);
     overflow: hidden;
+    border-radius: 10px;
+    margin: 20px;
 }
 .portfolio__img{
     transition: 
         transform 750ms cubic-bezier(.5, 0, .5, 1),
         opacity 250ms linear;
+    
 }
 .portfolio__item:focus{
     position: relative;
     z-index: 2;
 }
+
+
 .portfolio__img:hover,
 .portfolio__item:focus .portfolio__img{
     transform: scale(1.2);
