@@ -505,16 +505,16 @@ h3 { font-size: var(--fs-h3) }
     height: 15rem;
     padding-top: 25%;
 }
-
+/* 
 #cs-career-img{
-    background-image: url("Images/Index/tech-wallpaper-6.PNG");
+    background-image: url("Images/Index/tech-wallpaper-6.PNG") no-repeat;
 }
-#frantroincs-img{
-    background-image: url("Images/Index/tech-wallpaper-7.PNG");
+#franctroincs-img{
+    background-image: url("Images/Index/tech-wallpaper-7.PNG") no-repeat;
 }
 #coming-soon-img{
-    background-image: url("Images/Index/tech-wallpaper-9.PNG")
-}
+    background-image: url("Images/Index/tech-wallpaper-9.PNG") no-repeat;
+} */
 
 .portfolio__item:focus{
     position: relative;
