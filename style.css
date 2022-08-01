@@ -320,7 +320,7 @@ h3 { font-size: var(--fs-h3) }
         width: 100px;
     }
 }
-@media (min-width: 35em){
+@media (min-width: 30em){
     .primary-nav{
         --gap: clamp(1.5rem, 5vw, 3rem);
         padding-block: 2rem;
