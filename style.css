@@ -327,11 +327,19 @@ h3 { font-size: var(--fs-h3) }
         padding-inline: clamp(3rem, 10vw, 10rem);
 
         background: rgba(133, 216, 255, 0.418);
-        backdrop-filter: blur(1rem);
+        filter: blur(1rem);
     }
     
     
 }
+
+
+
+
+
+
+
+
 
 /* Intro Section */
 .intro{
