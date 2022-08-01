@@ -104,6 +104,11 @@ strong{font-weight: var(--fw-bold)}
     width: 12rem;
     padding: .5em;
 }
+#my-work-btn{
+    text-shadow: 2px 2px 10px var(--clr-accent);
+}
+
+
 /*Typography*/
 
 h1,
@@ -491,13 +496,26 @@ h3 { font-size: var(--fs-h3) }
     margin: 20px;
     color: #fff;
     text-decoration: none;
+    text-shadow: 2px 2px 10px var(--clr-accent);
 }
 .portfolio__img{
     transition: 
         transform 750ms cubic-bezier(.5, 0, .5, 1),
         opacity 250ms linear;
-    
+    height: 15rem;
+    padding-top: 25%;
 }
+
+#cs-career-img{
+    background-image: url("Images/Index/tech-wallpaper-6.PNG");
+}
+#frantroincs-img{
+    background-image: url("Images/Index/tech-wallpaper-7.PNG");
+}
+#coming-soon-img{
+    background-image: url("Images/Index/tech-wallpaper-9.PNG")
+}
+
 .portfolio__item:focus{
     position: relative;
     z-index: 2;
