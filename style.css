@@ -14,7 +14,7 @@
 
     --clr-light: #fff;
     --clr-dark: #303030;
-    --clr-accent: rgb(133, 216, 255);
+    --clr-accent: rgb(160, 225, 255);
     --clr-secondary-accent: rgb(164, 200, 216);
 
     --fs-h1: 3rem;
@@ -308,7 +308,7 @@ h3 { font-size: var(--fs-h3) }
         transform: translateX(100%);
         transition: transform 350ms ease-in;
 
-        background: rgb(133, 216, 255);
+        background: var(--clr-accent);
         /* backdrop-filter: blur(1rem); */
     }
     .primary-nav[data-visible="true"]{
@@ -337,7 +337,7 @@ h3 { font-size: var(--fs-h3) }
 @media (min-width: 35em) and (max-width: 55em){
     .primary-nav a > span[aria-hidden]{
         /* display: none; */
-        background: rgb(133, 216, 255);
+        background: var(--clr-accent);
         /* backdrop-filter: blur(1rem); */
     }
     .logo{
@@ -350,7 +350,7 @@ h3 { font-size: var(--fs-h3) }
         padding-block: 2rem;
         padding-inline: clamp(3rem, 10vw, 10rem);
 
-        background: rgb(133, 216, 255);
+        background: var(--clr-accent);
         /* backdrop-filter: blur(1rem); */
     }
     
