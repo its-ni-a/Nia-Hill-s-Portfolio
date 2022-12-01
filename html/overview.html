@@ -7,7 +7,7 @@
         
         <title>Nia Hill's Porfolio</title>
 
-        <link rel="stylesheet" href="../css/overview.css">
+        <link rel="stylesheet" href="../styling.css">
     
         <!--Insert Fonts and Icons-->
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -16,82 +16,81 @@
 
     </head>
 
-
-    <!--Navigation-->
-    <header>
-        <div class="d-flex flex-column">
-            <div class="profile">
-                <img src="" alt class="">
-                <h1 class="text-light">
-                    <a href="overview.html">Nia Hill</a>
-                </h1>
-                <div class="social_links mt-3 text-center">
-                    <a href="#" class="linkedin">
-                        <i class="bx bxl-linkedin"></i>
-                    </a>
-                    <a href="#" class="github">
-                        <i class="bx bxl-github"></i>
-                    </a>
-                    <a href="#" class="instagram">
-                        <i class="bx bxl-instagram"></i>
-                    </a>
-                    <a href="#" class="email">
-                        <i class="bx bxl-email"></i>
-                    </a>
+    
+    <body>  
+        <!--Navigation-->   
+        <header id="header">
+            <div class="d-flex flex-column">
+                <div class="profile">
+                    <img src="" alt class="">
+                    <h1 class="text-light">
+                        <a href="overview.html">Nia Hill</a>
+                    </h1>
+                    <div class="social_links mt-3 text-center">
+                        <a href="#" class="linkedin">
+                            <i class="bx bxl-linkedin"></i>
+                        </a>
+                        <a href="#" class="github">
+                            <i class="bx bxl-github"></i>
+                        </a>
+                        <a href="#" class="instagram">
+                            <i class="bx bxl-instagram"></i>
+                        </a>
+                        <a href="#" class="email">
+                            <i class="bx bxl-email"></i>
+                        </a>
+                    </div>
                 </div>
+
+                <!-- Navbar-->
+                <nav class="nav__menu navbar" id="navbar">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link scorllto active">
+                                <i class="bx bx-home"></i>
+                                <span>Home</span>
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link scorllto active">
+                                <i class="bx bx-about"></i>
+                                <span>About Me</span>
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#resume" class="nav__link scorllto active">
+                                <i class="bx bx-resume"></i>
+                                <span>Resume</span>
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#portfolio" class="nav__link scorllto active">
+                                <i class="bx bx-portfoliot"></i>
+                                <span>Portfolio</span>
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#services" class="nav__link scorllto active">
+                                <i class="bx bx-services"></i>
+                                <span>Services</span>
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#contact" class="nav__link scorllto active">
+                                <i class="bx bx-contact"></i>
+                                <span>Contact</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+    
             </div>
+        </header>
 
-        <!-- Navbar-->
-        <nav class="nav__menu navbar" id="navbar">
-            <ul class="nav__list">
-                <li class="nav__item">
-                    <a href="#home" class="nav__link scorllto active">
-                        <i class="bx bx-home"></i>
-                        <span>Home</span>
-                    </a>
-                </li>
-                <li class="nav__item">
-                    <a href="#about" class="nav__link scorllto active">
-                        <i class="bx bx-about"></i>
-                        <span>About Me</span>
-                    </a>
-                </li>
-                <li class="nav__item">
-                    <a href="#resume" class="nav__link scorllto active">
-                        <i class="bx bx-resume"></i>
-                        <span>Resume</span>
-                    </a>
-                </li>
-                <li class="nav__item">
-                    <a href="#portfolio" class="nav__link scorllto active">
-                        <i class="bx bx-portfoliot"></i>
-                        <span>Portfolio</span>
-                    </a>
-                </li>
-                <li class="nav__item">
-                    <a href="#services" class="nav__link scorllto active">
-                        <i class="bx bx-services"></i>
-                        <span>Services</span>
-                    </a>
-                </li>
-                <li class="nav__item">
-                    <a href="#contact" class="nav__link scorllto active">
-                        <i class="bx bx-contact"></i>
-                        <span>Contact</span>
-                    </a>
-                </li>
-            </ul>
-        </nav>
-
-        </div>
-    </header>
-
-
-    <body>     
-        <!-- Overview -->
-        <section class="d-flex flex-column justify__content--center align__item--center" id="home">
-            
-            <div class="overbiew__container" data-aos="fade-in">
+        <!--------------- Overview ---------------->
+        <div class="d-flex flex-column justify__content--center align__item--center" id="home">
+            <!-- ::before -->
+            <div class="overview__container" data-aos="fade-in">
                 <h1 class="section__title section__title--home">
                     <strong>Nia Hill</strong>
                 </h1>
@@ -100,110 +99,107 @@
                 </p>
                 <img src="" alt="overview__background" class="photo__1">
             </div>
-        </section>
+        </div>
 
-        <!-- About -->
-        <section class="about" id="about">
-            <div class="container">
-                <h2 class="section__title section__title--about">About</h2>
-                    <p>Hi! I am an aspiring software engineer with a background in front-end web development. I am currently attending the City College of New York in order to receive my Bachelor's Degree in Computer Science. For the past two years I have taught myself HTML, CSS and JavaScript. However, for the duration of the summer of 2021 I have participated in two paid-internships in order to expand and strengthen my skill-set. I am very passionate about web design and am open to any opportunity to explore that realm of Computer Science as well as others. Feel free to contact me at anytime!</p>
-                <div class="row">
-                    <div class="col-lg-4" data-aos="fade-right">
-                        <img src="" alt="" class="photo_2">
-                    </div>
-                    <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
-                        <h3 class="section__subtitle section__subtitle--about">Front-end Web Developer</h3>
-                        <p class="fst-italic">
-                            ----------------------------------------------------------------
-                        </p>
-                        <div class="row">
-                            <ul>
-                                <h4 class="section__subtitle_2 section__subtitle_2--about">Skillset</h4>
-                                <p>----------------------------------------------------------------</p>
-                                <li class="nav__item">HTML</li>
-                                <li class="nav__item">CSS</li>
-                                <li class="nav__item">Bootstrap</li>
-                                <li class="nav__item">Figma</li>
-                                <li class="nav__item">Python</li>
-                            </ul>
+        <!----------------- About ------------------->
+        <main id="main">
+            <section class="about" id="about">
+                <div class="container">
+                    <h2 class="section__title section__title--about">About</h2>
+                        <p>Hi! I am an aspiring software engineer with a background in front-end web development. I am currently attending the City College of New York in order to receive my Bachelor's Degree in Computer Science. For the past two years I have taught myself HTML, CSS and JavaScript. However, for the duration of the summer of 2021 I have participated in two paid-internships in order to expand and strengthen my skill-set. I am very passionate about web design and am open to any opportunity to explore that realm of Computer Science as well as others. Feel free to contact me at anytime!</p>
+                    <div class="row">
+                        <div class="col-lg-4" data-aos="fade-right">
+                            <img src="" alt="" class="photo_2">
                         </div>
-                    </div>   
-                </div>
-            </div>                  
-        </section>
-
-        <!-- Resume -->
-        <section class="resume" id="resume">
-            <div class="container">
-                <h2 class="section__title section__title--resume">Resume</h2>
-                <p>----------------------------------------------------------------</p>
-
-                <div class="row"><!-- RESUME EDITS HERE!!! -->
-                    <div class="col-lg-6 aos-init aos-animate" data-aos="fade-up">
-                    <!--Experience 1-->
-                        <h3 class="section__subtitle section__subtitle--resume">Tech Support Intern</h3>
-                        <h4 class="section__subtitle_2 section__subtitle_2--resume">September 2022-Present</h4>
-                        <h5 class="section__subtitle_3 section__subtitle_3--resume"><i>Department of Education</i></h5>
-                        <p>----------------------------------------------------------------</p>
-                        
-                    <!--Experience 2-->
-                    <h3 class="section__subtitle section__subtitle--resume">Web Development TA</h3>
-                    <h4 class="section__subtitle_2 section__subtitle_2--resume">July 2022-August 2022</h4>
-                    <h4 class="section__subtitle_3 section__subtitle_3--resume"><i>Upperline Code/ Giant Machines</i></h4>
-                    <p>----------------------------------------------------------------</p>
+                        <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+                            <h3 class="section__subtitle section__subtitle--about">Front-end Web Developer</h3>
+                            <p class="fst-italic">
+                                ----------------------------------------------------------------
+                            </p>
+                            <div class="row">
+                                <ul>
+                                    <h4 class="section__subtitle_2 section__subtitle_2--about">Skillset</h4>
+                                    <p>----------------------------------------------------------------</p>
+                                    <li class="nav__item">HTML</li>
+                                    <li class="nav__item">CSS</li>
+                                    <li class="nav__item">Bootstrap</li>
+                                    <li class="nav__item">Figma</li>
+                                    <li class="nav__item">Python</li>
+                                </ul>
+                            </div>
+                        </div>   
                     </div>
+                </div>                  
+            </section>
+
+            <!-- Resume -->
+            <section class="resume" id="resume">
+                <div class="container">
+                    <h2 class="section__title section__title--resume">Resume</h2>
+                    <p>----------------------------------------------------------------</p>
+
+                    <div class="row"><!-- RESUME EDITS HERE!!! -->
+                        <div class="col-lg-6 aos-init aos-animate" data-aos="fade-up">
+                        <!--Experience 1-->
+                            <h3 class="section__subtitle section__subtitle--resume">Tech Support Intern</h3>
+                            <h4 class="section__subtitle_2 section__subtitle_2--resume">September 2022-Present</h4>
+                            <h5 class="section__subtitle_3 section__subtitle_3--resume"><i>Department of Education</i></h5>
+                            <p>----------------------------------------------------------------</p>
+                            
+                        <!--Experience 2-->
+                        <h3 class="section__subtitle section__subtitle--resume">Web Development TA</h3>
+                        <h4 class="section__subtitle_2 section__subtitle_2--resume">July 2022-August 2022</h4>
+                        <h4 class="section__subtitle_3 section__subtitle_3--resume"><i>Upperline Code/ Giant Machines</i></h4>
+                        <p>----------------------------------------------------------------</p>
+                        </div>
+                    </div>
+
+                    <!--Experience 3-->
+                    <h3 class="section__subtitle section__subtitle--resume">FinTech Focus Fellow</h3>
+                    <h4 class="section__subtitle_2 section__subtitle_2--resume">July 2021</h4>
+                    <h4 class="section__subtitle_3 section__subtitle_3--resume"><i>Upperline Code</i></h4>
+                    <p>----------------------------------------------------------------</p>
+                    
+                    <!--Experience 4-->
+                    <h3 class="section__subtitle section__subtitle--resume">Summer Guild Participant</h3>
+                    <h4 class="section__subtitle_2 section__subtitle_2--resume">August 2021</h4>
+                    <h4 class="section__subtitle_3 section__subtitle_3--resume"><i>BreakThrough Tech</i></h4>
+                    <p>----------------------------------------------------------------</p>  
                 </div>
+            </section>
 
-                <!--Experience 3-->
-                <h3 class="section__subtitle section__subtitle--resume">FinTech Focus Fellow</h3>
-                <h4 class="section__subtitle_2 section__subtitle_2--resume">July 2021</h4>
-                <h4 class="section__subtitle_3 section__subtitle_3--resume"><i>Upperline Code</i></h4>
-                <p>----------------------------------------------------------------</p>
-                
-                <!--Experience 4-->
-                <h3 class="section__subtitle section__subtitle--resume">Summer Guild Participant</h3>
-                <h4 class="section__subtitle_2 section__subtitle_2--resume">August 2021</h4>
-                <h4 class="section__subtitle_3 section__subtitle_3--resume"><i>BreakThrough Tech</i></h4>
+            <!-- Portfolio -->
+            <section class="portfolio" id="portfolio">
+                <h2 class="section__title section__title--portfolio">About</h2>
                 <p>----------------------------------------------------------------</p>  
-            </div>
-        </section>
+                    
+                    <li class="nav__item">Work 1</li>
+                    <li class="nav__item">Work 2</li>
+                    <li class="nav__item">Work 3</li>
+                    <li class="nav__item">Work 4</li>
+            </section>
 
-        <!-- Portfolio -->
-        <section class="portfolio" id="portfolio">
-            <h2 class="section__title section__title--portfolio">About</h2>
-            <p>----------------------------------------------------------------</p>  
-                
-                <li class="nav__item">Work 1</li>
-                <li class="nav__item">Work 2</li>
-                <li class="nav__item">Work 3</li>
-                <li class="nav__item">Work 4</li>
-        </section>
+            <!-- Services -->
+            <section class="services" id="services">
+                <h2 class="section__title section__title--services">Services</h2>
+                <p>----------------------------------------------------------------</p>  
+                    
+                    <li class="nav__item">Design</li>
+                    <li class="nav__item">Development</li>
+                    <li class="nav__item">Collaboration</li>
+            </section>
 
-        <!-- Services -->
-        <section class="services" id="services">
-            <h2 class="section__title section__title--services">Services</h2>
-            <p>----------------------------------------------------------------</p>  
-                
-                <li class="nav__item">Design</li>
-                <li class="nav__item">Development</li>
-                <li class="nav__item">Collaboration</li>
-        </section>
-
-        <!-- Testimonials -->
-        <section class="testimonials" id="testimonials">
-            <h2 class="section__title section__title--testimonials">Testimonials</h2>
-            <p>----------------------------------------------------------------</p>  
-                
-            <div>
-                <li class="nav__item">Testimonial 1</li>
-                <li class="nav__item">Testimonial 2</li>
-                <li class="nav__item">Testimonial 3</li>
-            </div> 
-        </section>
-
-
-
-
-
+            <!-- Testimonials -->
+            <section class="testimonials" id="testimonials">
+                <h2 class="section__title section__title--testimonials">Testimonials</h2>
+                <p>----------------------------------------------------------------</p>  
+                    
+                <div>
+                    <li class="nav__item">Testimonial 1</li>
+                    <li class="nav__item">Testimonial 2</li>
+                    <li class="nav__item">Testimonial 3</li>
+                </div> 
+            </section>
+        </main>
     </body>
 </html>
