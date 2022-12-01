@@ -1,0 +1,47 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+/* Custon Properties */
+
+:root{
+    --ff-primary: 'Source Sans Pro', sans-serif;
+    --ff-secondary: 'Source Code Pro', monospace;
+    
+    --fw-reg: 300;
+    --fw-bold: 900;
+
+    --clr-light: #fff;
+    --clr-dark: #303030;
+    --clr-accent: rgba(136, 234, 255, 1);
+    --clr-secondary-accent: rgb(164, 200, 216);
+
+    --fs-h1: 3rem;
+    --fs-h2: 2.25rem;
+    --fs-h3: 1.25rem;
+    --fs-body: 1rem;
+
+    --bs: 0.25em 0.25em 0.75em rbga(0,0,0,.25),
+          0.125em 0.125em 0.25em rbga(0,0,0,.15);
+}
+
+/*General Styling*/
+html { 
+    font-family: var(--ff-primary);
+    
+}
+body {
+    margin-left: 25%;
+    font-size: var(--fs-body);
+    background-color: red;
+}
+header{
+    background-color: var(--clr-accent);
+    width: 25%;
+    margin-left: 0
+}
+section{
+    padding: 5em 2em;
+    padding-top: 2em;
+}
