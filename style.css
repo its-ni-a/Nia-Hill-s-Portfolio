@@ -531,15 +531,12 @@ h3 { font-size: var(--fs-h3) }
 }
 
 #cs-career-img{
-    background-image: url("Images/Index/tech-wallpaper-4.PNG");
     text-shadow:5px 5px 10px #444;
 }
 #franctroincs-img{
-    background-image: url("Images/Index/tech-wallpaper-3.PNG");
     text-shadow:5px 5px 10px #444;
 }
 #coming-soon-img{
-    background-image: url("Images/Index/tech-wallpaper-5.PNG");
     text-shadow:5px 5px 10px #444;
 }
 
