@@ -10,48 +10,46 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" /> 
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
-        
-
 
         <!--Insert Fonts and Icons-->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,900;1,400&family=Source+Sans+Pro:wght@300;900&display=swap" rel="stylesheet">
-       
+        <link rel="stylesheet" href="style.css">
 
     </head>
 
     <body>
         
         <header class="primary-header flex">
-          <div class="logo">
-            <a href="index.html"><img src="Images/Index/nialogoscrunched(DRAFT).png" alt=""></a>
-          </div>
-  
-          <button class="mobile-nav-toggle" 
-          aria-controls="primary-nav" aria-expanded="false">
-              <span class="sr-only">Menu</span>
-          </button>
-  
-          <nav>
-              <ul id="primary-nav" 
-              data-visible="false" class="primary-nav flex">
-                  <li class="active">
-                      <a href="index.html"><span aria-hidden="true"></span>Home</a>
-                  </li>
-                  <li>
-                      <a href="index.html"><span aria-hidden="true"></span>Services</a>
-                  </li>
-                  <li>
-                      <a href="index.html"><span aria-hidden="true"></span>About</a>
-                  </li>
-                  <li>
-                      <a href="index.html"><span aria-hidden="true"></span>Work</a>
-                  </li>
-              </ul>
-          </nav>
-      </header>
- 
+            <div class="logo">
+                <a href="./index.html"><img src="Images/Index/nialogoscrunched(DRAFT).png" alt=""></a>
+            </div>
+    
+            <button class="mobile-nav-toggle" 
+            aria-controls="primary-nav" aria-expanded="false">
+                <span class="sr-only">Menu</span>
+            </button>
+    
+            <nav>
+                <ul id="primary-nav" 
+                data-visible="false" class="primary-nav flex">
+                    <li class="active">
+                        <a href="./index.html"><span aria-hidden="true"></span>Home</a>
+                    </li>
+                    <li>
+                        <a href="./index.html"><span aria-hidden="true"></span>Services</a>
+                    </li>
+                    <li>
+                        <a href="./index.html"><span aria-hidden="true"></span>About</a>
+                    </li>
+                    <li>
+                        <a href="./index.html"><span aria-hidden="true"></span>Work</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
 
 
         <!--Intoduction-->
@@ -69,7 +67,7 @@
             <p style="margin-bottom: 3em;">A webpage that offers information on careers in computer science by
 determining the best fit for you through your personality.</p>
           
-             <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+             <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">                 
                     <div class="carousel-inner">
                       <div class="carousel-item active" data-bs-interval="10000">
                         <img src="Images/Portfolio-Item1/website-1-edit.png" class="d-block w-100" alt="...">
@@ -77,10 +75,9 @@ determining the best fit for you through your personality.</p>
                       <div class="carousel-item" data-bs-interval="2000">
                         <img src="Images/Portfolio-Item1/website-2 (2).PNG" class="d-block w-100" alt="...">
                       </div>
-                      <div class="carousel-item">
+                    <div class="carousel-item" data-bs-interval="2000">
                         <img src="Images/Portfolio-Item1/website-3 (2).PNG" class="d-block w-100" alt="...">
                       </div>
-                    </div>
                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
                       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                       <span class="visually-hidden">Previous</span>
@@ -90,16 +87,6 @@ determining the best fit for you through your personality.</p>
                       <span class="visually-hidden">Next</span>
                     </button>
                   </div>
-
-                <div class="portfolio-button">
-                  <a href="https://cs-career-fit.herokuapp.com/" target="_blank" class="btn" id="portfolio-btn">Link to project</a>
-                </div>
-
-
-            <p>Computer systems and mobile devices have rapidly integrated their way into our everyday life and with all of these advances in technology comes a greater need for professionals in this field of study. Due to the numerous subsections and and career paths it can be very intimidated for aspiring computer professionals to find their correct niche.</p>
-            <p>With this website a user will take a brief quiz that will determine what career in computer science would best fit them based on their personality.</p>
-            <p>I used the Flask framework in order to build this web application, and Python to receive the user input and export the user's ideal computer science career.</p>
-           
         </div>
         </section>
 
@@ -113,7 +100,7 @@ determining the best fit for you through your personality.</p>
                 <li class="social-list__item">
                     <a class="socail-list__link" href="https://www.linkedin.com/in/nia-hill/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
                 <li class="social-list__item">
-                    <a class="socail-list__link" href="https://www.instagram.com/accounts/onetap/?next=%2F" target="_blank"><i class="fab fa-instagram"></i></a></li>           
+                    <a class="socail-list__link" href="https://www.instagram.com/its.ni.a/" target="_blank"><i class="fab fa-instagram"></i></a></li>           
             </ul>
         </footer>
 
